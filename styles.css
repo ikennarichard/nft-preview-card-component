@@ -1,0 +1,131 @@
+/* import */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+
+/* default styles------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+:root {
+--soft-blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+--very-dark-blue-main: hsl(217, 54%, 11%);
+--very-dark-blue-card: hsl(216, 50%, 16%);
+--very-dark-blue-line: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--very-dark-blue-main);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+h1 {
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+hr {
+    color: var(--very-dark-blue-line);
+    display: block;
+    margin-block-end: -0.2em;
+}
+
+
+/* main styles------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+main {
+    background-color: var(--very-dark-blue-card);
+    padding: 2em;
+    border-radius: 1em;
+    width: 18em;
+}
+
+
+.eth-container {
+    display: flex;
+    justify-content: space-between;
+    width: 18em;
+}
+
+
+.equilibrum-image {
+    border-radius: 1.2em;
+}
+
+.equilibrium-text {
+    width: 17em;
+    word-spacing: 0.1em;
+    color: var(--soft-blue);
+}
+
+.ethereum-price {
+    font-weight: 600;
+    color: var(--soft-blue);
+}
+
+
+.days-left {
+    position: relative;
+    bottom: 5px;
+    color: var(--soft-blue);
+    font-size: 0.8em;
+}
+
+
+.creation-section {
+    display: flex;
+}
+
+
+.avatar {
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-block-start: 1em;
+}
+
+.creation-text {
+    margin-inline-start: 1em;
+    margin-block-start: 2em;
+    color: var(--soft-blue);
+    font-size: 0.9em;
+    word-spacing: 0.1em;
+}
+
+small {
+    color: var(--white);
+    font-size: 1em;
+}
+
+
+@media (max-width: 1200px) {
+    main {
+        margin-block-end: 20em;
+    }
+}
