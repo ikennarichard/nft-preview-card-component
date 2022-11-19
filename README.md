@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Code](https://github.com/ikennarichard/nft-preview-card-component)
-- [Live Page](https://your-live-site-url.com)
+- [Live Page](https://ikennarichard.github.io/nft-preview-card-component/)
 
 ## My process
 
